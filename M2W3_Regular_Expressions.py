@@ -232,7 +232,7 @@ print(check_time("five o'clock")) # False
 
 import re
 def contains_acronym(text):
-  pattern = ___ 
+  pattern = r"\(([A-Za-z0-9_]+)\)"
   result = re.search(pattern, text)
   return result != None
 
